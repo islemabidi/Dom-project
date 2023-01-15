@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ecommerce shopping cart</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="script.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,200;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"> High tech</a>
+        <div class="bx bx-menu "id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Faq">Faq</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#"><i class='bx bx-search-alt-2'></i></a>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bxs-mobile'></i></a>
+            <a href="#"><i class='bx bxs-devices'></i></a>
+            <a href="#"><i class='bx bx-laptop'></i></i></a>
+        </div>
+    </header>
+
+    <section class="shop" id="shop">
+        <div class="container">
+            <div class="box">
+                <button id=remove class="remove">X</button>
+                <img src="main1.jpg" alt="main1">
+                <h4>Mobile phone</h4>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-heart-circle'></i></a>
+                    <div class="conteur">
+                    <button class="minus">-</button>
+                    <span class="counter">$15.00</span>
+                    <button class="add">+</button>
+                    <input class="total"type="text"id="total" value="0">
+                </div>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <button id=remove class="remove">X</button>
+                <img src="main2.jpg" alt="main2">
+                <h4>IPad</h4>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-heart-circle'></i></a>
+                    <div class="conteur">
+                        <button class="minus">-</button>
+                        <span class="counter">$18.00</span>
+                        <button class="add">+</button>
+                        <input class="total"type="text"id="total" value="0">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="box1">
+                <button id=remove class="remove">X</button>
+                <img src="main3.jpg" alt="main3">
+                <h4>Laptop+mouse</h4>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-heart-circle'></i></a>
+                    <div class="conteur">
+                        <button class="minus">-</button>
+                        <span class="counter">$50.00</span>
+                        <button class="add">+</button>
+                        <input class="total"type="text"id="total" value="0">
+                    </div>
+    
+    </section>
+
+    
+
+<footer class="main-footer">
+        <h1 class="tt">Total Price</h1><br>
+        <input type="text"id="totalfin"value="0">
+        <button onclick="myfunction()"class="btnfin">Buy</button>
+    </footer>
+</body>
+</html>
